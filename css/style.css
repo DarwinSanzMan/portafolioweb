@@ -1,0 +1,97 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+
+font-family: 'Readex Pro', sans-serif;
+background-color: skyblue ;
+
+}
+
+h1, h2, h4, h5, h6, p {
+font-weight: bold;
+}
+
+h3 {
+font-family: 'Finger Paint', cursive;
+text-align: right;
+color: white;
+display: flex;
+}
+
+.nav-item{	
+margin: 15px;
+padding: 15px;
+}
+
+}
+.altura-a-b {
+	padding: 80px 0;
+
+}
+.logotipo{
+	width: 70px;
+	padding: 10px 0;
+}
+
+.banner-video {
+	background-image: url("..images/home/Techot.png");
+	padding: 150px 0;
+	position: relative;
+	text-align: center;
+}
+
+.youtube {
+margin-top: 40px;
+padding: 70px 0px 70px 0px;
+} 
+
+.youtube h1, h5, p, {
+text-align: center;
+margin-bottom: 5px;
+}
+
+
+.video-responsive {
+position: relative;
+padding-bottom: 40%; /* 16/9 ratio */
+padding-top: 20
+
+px; /* IE6 workaround*/
+height: 0;
+overflow: hidden;
+text-align: center;
+}
+
+.video-responsive iframe,
+.video-responsive object,
+.video-responsive embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 70%;
+height: 90%;
+text-align: center;
+}
+
+.footer{
+background-color: black;
+padding: 60px;
+}
+
+@media only screen and (max-width: 600px) {
+	body {
+	background-color: beige;
+	carousel-indicators: none;
+	}
+}
+
+
+
+.textoAnimado h3 {
+font-family: 'Finger Paint', cursive;
+text-align: center;
+color: darkblue;
+display: inline-block;
+}
